@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<link rel="stylesheet" href="css/jquery.fullPage.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/index.css">
+	<script src="js/jquery-1.8.3.min.js"></script>
+	<script src="js/jquery.fullPage.min.js"></script>
+
+</head>
+<body>
+	<header>
+		<hgroup>
+			<div class="nav">
+				<div class="logo"><a href=""></a></div>
+				<div class="nav-left">
+					<ul class="clear-both">
+						<li class="nav-list"><a href="">首页</a></li>
+						<li class="nav-list"><a href="">产品介绍</a></li>
+						<li class="nav-list"><a href="">用户版</a></li>
+					</ul>
+				</div>
+				<div class="nav-right">
+					<ul class="clear-both">
+						<li class=" float-l"><a href=""id="nav-app">手机客户端<i></i></a></li>
+						<li class="float-l p-top"><a href="">百度司南</a></li>
+						<li class="float-l p-top"><a href="">联系我们</a></li>
+						<li id="color-yellow" class=" float-l p-top"><a href="">申请试用</a></li>
+					</ul>
+				</div>
+			</div>
+		</hgroup>
+	</header>
+	<div id="dowebok">
+	    <div class="section active clear-both">
+	       <div class="modle-box">
+	       	<div class="top">
+	       		<div class="top-box-1"></div>
+	       	</div>
+	       	<div class="middle">
+	       		<div class="middle-box-1"></div>
+	       	</div>
+	       	<div class="bottom">
+	       		<div class="bottom-box-1"></div>
+	       	</div>
+	       	<div class="chuan">
+	       		<div class="center">
+	       			<div class="center-box1"></div>
+	       			<div class="center-box2"></div>
+	       			<div class="center-boxw"></div>
+	       			<div class="center-box3"></div>
+	       		</div>
+	       		<div class="center">
+	       			<div class="center-box4">
+	       				<div class="login"></div>
+	       				<div class="login-shadow"></div>
+	       				
+	       			</div>
+	       			<div class="center-box5 obj"></div>
+	       			<div class="center-box6 obj"></div>
+	       		</div>
+	       		<div class="bottombox">
+	       			<div class="center">
+	       				<a href="#page2" class="jiantou"></a>
+	       			</div>
+	       		</div>
+	       	</div>
+	       </div>
+	    </div>
+	     <!-- 第二屏 -->
+	<section class="section clear-both">
+      <div class="box2">
+      	<div class="center">
+      		<div class="title-2 title-1">
+      			<div class="title">
+      				<h3></h3>
+      				<div class="text">
+      					<h4>数据收集与处理</h4>
+      					<p>15年专业数据收集与语义分析技术积累<br>卓越极致，不断攀登</p>
+      				</div>
+      			</div>
+      		</div>
+      		<div class="right2"></div>
+      	</div>
+      	<div class="active1"></div>
+      	<div class="active2"></div>
+      	<div class="active3"></div>
+      	<div class="active4"></div>
+      	<div class="active5"></div>
+      	<div class="bottombox">
+	       			<div class="center">
+	       				<a href="#page3" class="jiantou"></a>
+	       			</div>
+	    </div>
+      </div>
+	</section>
+    <!-- 第三屏 -->
+	<section class="section clear-both">
+      <div class="box3">
+      	<div class="center">
+      		<div class="title-3 title-1">
+      			<div class="title1">
+      				<h3 class="h3"></h3>
+      				<div class="text">
+      					<h4>舆情分析逻辑与架构</h4>
+      					<p>声量诊断、传播分析、情感提炼、受众画像 有方法论，更有智慧</p>
+      				</div>
+      			</div>
+      		</div>
+      		<div class="right3"></div>
+      	</div>
+      	<div class="active11"></div>
+      	<div class="active22"></div>
+      	<div class="active33"></div>
+      	<div class="active44"></div>
+      	<div class="active55"></div>
+      	<div class="bottombox">
+	       			<div class="center" style="z-index:10">
+	       				<a href="#page4" class="jiantou"></a>
+	       			</div>
+	    </div>
+     <div class="follow-head"></div>
+      </div>
+
+	</section>
+	<!-- 第四版 -->
+	   <section class="section clear-both">
+      <div class="box4">
+      	<div class="center">
+      		<div class="title-3 title-1">
+      			<div class="title1">
+      				<h3 class="h4"></h3>
+      				<div class="text">
+      					<h4>专业数据可视化</h4>
+      					<p>非凡的数据洞悉和可视化能力精研数据，惊艳所见
+</p>
+      				</div>
+      			</div>
+      		</div>
+      		<div class="right4"></div>
+      	</div>
+      	<div class="quanquan"></div>
+      </div>
+
+      <div class="copyright">© 2014 Baidu使用百度前必读</div>
+	</section>
+
+
+	</div>
+		    
+	
+	<script>
+	$(function(){
+     $('#dowebok').fullpage({
+    	navigation:true,
+    	sectionsColor: ['rgb(63,176,238)', 'rgb(13,113,205)', 'rgb(73,193,121)', 'rgb(0,154,112)'],
+    	anchors:['page1','page2','page3','page4']
+
+        })
+    });
+	</script>
+</body>
+</html>
